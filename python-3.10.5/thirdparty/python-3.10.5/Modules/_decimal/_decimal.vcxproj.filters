@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f35a78a6-3ef0-4e36-bd8b-afaef22fbb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{138089f8-faba-494f-b6ed-051f31fbaf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libmpdec">
+      <UniqueIdentifier>{322d127c-1105-4a31-aed2-e29cdececc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libmpdec">
+      <UniqueIdentifier>{780c3b7a-7817-4e89-a2f2-fc522f2c5966}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="docstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\basearith.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\bits.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\constants.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\convolute.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\crt.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\difradix2.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\fnt.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\fourstep.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\mpdecimal.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\numbertheory.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\sixstep.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\transpose.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\typearith.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\umodarith.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+    <ClInclude Include="libmpdec\vccompat.h">
+      <Filter>Header Files\libmpdec</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_decimal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\basearith.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\constants.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\context.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\convolute.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\crt.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\difradix2.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\fnt.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\fourstep.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\io.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\mpalloc.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\mpdecimal.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\numbertheory.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\sixstep.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+    <ClCompile Include="libmpdec\transpose.c">
+      <Filter>Source Files\libmpdec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libmpdec\vcdiv64.asm">
+      <Filter>Source Files\libmpdec</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
