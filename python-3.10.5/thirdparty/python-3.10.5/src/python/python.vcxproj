@@ -53,8 +53,8 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <StackReserveSize>2000000</StackReserveSize>
-      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">python3.lib</AdditionalDependencies>
-      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">python3.lib</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pythoncore.lib</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pythoncore.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <ImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
