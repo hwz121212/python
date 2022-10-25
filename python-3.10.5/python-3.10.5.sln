@@ -55,6 +55,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_exe", "2_exe", "{17D1CDD2-3DC2-4D7F-B7DA-0D5EF726B7A3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "python", "thirdparty\python-3.10.5\src\python\python.vcxproj", "{B11D750F-CD1F-4A96-85CE-E69A5C5259F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF7AC3D1-E2DF-41D2-BEA6-1E2556CDEA26} = {CF7AC3D1-E2DF-41D2-BEA6-1E2556CDEA26}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libeay32", "thirdparty\openssl-1.1.1q\libeay32.vcxproj", "{70ABE75C-FBC2-4C82-9103-B952FA5CD168}"
 EndProject
